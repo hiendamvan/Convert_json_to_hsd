@@ -3,11 +3,12 @@
 Africa01        "16024-16569 ; 1-576 ;"         16129A  16169T  16172C  16187T  16189C  16223T  16230G  16278T  16311C 16325C                                          16327T   16354T  16368C  73G     146C    152C    185A    189G    199C    207A    247A    263G    315.1C
 '''
 import json
+import os
 
 # make a class for each intervals
 intervals = []
 class Interval:
-    def __init__(self, start, end, variants):
+     def __init__(self, start, end, variants):
         self.start = start
         self.end = end
         self.variants = variants
@@ -33,12 +34,13 @@ def read_json(file):
 def write_hsd(file):
     # get the name of the file
     name = file.split('.')[0]
-    with open('output.hsd', 'w') as f:
+    with open('output' + str(name) + '.hsd', 'w') as f:
         # write name
         f.write(str(name) +'\t')
 
         # write sequence
         f.write('"')
+
         for i in intervals:
             f.write(str(i.start) + '-' + str(i.end) + ' ;')
             if i == intervals[-1]:
@@ -52,7 +54,10 @@ def write_hsd(file):
                 f.write(v + ' ')
             f.write('\t')
 
-read_json('250396.json')
-write_hsd('250396.json')
+files = os.listdir('data')
+for file in files:
+    read_json('data/' + file)
+    write_hsd(file)
+    intervals = []
 #print intervals
 
