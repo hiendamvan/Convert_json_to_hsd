@@ -1,0 +1,152 @@
+{
+    "information": {
+        "type_sample": "M\u1eabu m\u00e1u to\u00e0n ph\u1ea7n",
+        "place_sample": "B\u1ec7nh vi\u1ec7n XXX",
+        "test_time": "11:00",
+        "test_date": "05-02-2025"
+    },
+    "variants": {
+        "HV1": [
+            {
+                "pos": 16092,
+                "ref": "T",
+                "seq": "C",
+                "file": [
+                    "20250206_250396_HV1F"
+                ]
+            },
+            {
+                "pos": 16140,
+                "ref": "T",
+                "seq": "C",
+                "file": [
+                    "20250206_250396_HV1F"
+                ]
+            },
+            {
+                "pos": 16183,
+                "ref": "A",
+                "seq": "C",
+                "file": [
+                    "20250206_250396_HV1F"
+                ]
+            },
+            {
+                "pos": 16189,
+                "ref": "T",
+                "seq": "C",
+                "file": [
+                    "20250206_250396_HV1F",
+                    "20250210_250396_HV1R"
+                ]
+            },
+            {
+                "pos": 16209,
+                "ref": "T",
+                "seq": "C",
+                "file": [
+                    "20250210_250396_HV1R"
+                ]
+            },
+            {
+                "pos": 16266,
+                "ref": "C",
+                "seq": "A",
+                "file": [
+                    "20250210_250396_HV1R"
+                ]
+            }
+        ],
+        "HV2": [
+            {
+                "pos": 210,
+                "ref": "A",
+                "seq": "G",
+                "file": [
+                    "20250210_250396_HV2F"
+                ]
+            },
+            {
+                "pos": 263,
+                "ref": "A",
+                "seq": "G",
+                "file": [
+                    "20250210_250396_HV2F"
+                ]
+            },
+            {
+                "pos": 315.1,
+                "ref": "-",
+                "seq": "C",
+                "file": [
+                    "20250212_250396_HV3R"
+                ]
+            }
+        ],
+        "HV3": [
+            {
+                "pos": 523,
+                "ref": "A",
+                "seq": "-",
+                "file": [
+                    "post_process"
+                ]
+            },
+            {
+                "pos": 524,
+                "ref": "C",
+                "seq": "-",
+                "file": [
+                    "post_process"
+                ]
+            }
+        ]
+    },
+    "strings": {
+        "HV1": {
+            "positions": "    16030     16040     16050     16060     16070     16080     16090     16100     16110     16120     16130     16140     16150     16160     16170     16180     16190     16200     16210     16220     16230     16240     16250     16260     16270     16280     16290     16300     16310     16320     16330     16340     16350     16360   ",
+            "space_annotations": ".|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|",
+            "ref": "TTCTTTCATGGGGAAGCAGATTTGGGTACCACCCAAGTATTGACTCACCCATCAACAACCGCTATGTATTTCGTACATTACTGCCAGCCACCATGAATATTGTACGGTACCATAAATACTTGACCACCTGTAGTACATAAAAACCCAATCCACATCAAAACCCCCTCCCCATGCTTACAAGCAAGTACAGCAATCAACCCTCAACTATCACACATCAACTGCAACTCCAAAGCCACCCCTCACCCACTAGGATACCAACAAACCTACCCACCCTTAACAGTACATAGTACATAAAGCCATTTACCGTACATAGCACATTACAGTCAAATCCCTTCTCGTCCC",
+            "seq_variants": "....................................................................C...............................................C..........................................C.....C...................C........................................................A..................................................................................................."
+        },
+        "HV2": {
+            "positions": "      80        90        100       110       120       130       140       150       160       170       180       190       200       210       220       230       240       250       260       270       280       290       300       310        320       330       340",
+            "space_annotations": "..|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|.....|....|....|....|....|",
+            "ref": "ATGCACGCGATAGCATTGCGAGACGCTGGAGCCGGAGCACCCTATGTCGCAGTATCTGTCTTTGATTCCTGCCTCATCCTATTATTTATCGCACCTACGTTCAATATTACAGGCGAACATACTTACTAAAGTGTGTTAATTAATTAATGCTTGTAGGACATAATAATAACAATTGAATGTCTGCACAGCCACTTTCCACACAGACATCATAACAAAAAATTTCCACCAAACCCCCCCTCCCCC-GCTTCTGGCCACAGCACTTAAACAC",
+            "seq_variants": ".........................................................................................................................................G....................................................G....................................................C........................."
+        },
+        "HV3": {
+            "positions": " 440       450       460       470       480       490       500       510       520       530       540       550       560       570     ",
+            "space_annotations": "..|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|....|.",
+            "ref": "CAACTAACACATTATTTTCCCCTCCCACTCCCATACTACTAATCTCATCAATACAACCCCCGCCCATCCTACCCAGCACACACACACCGCTGCTAACCCCATACCCCGAACCAACCAAACCCCAAAGACACCCCCCACA",
+            "seq_variants": ".....................................................................................--...................................................."
+        }
+    },
+    "intervals": {
+        "HV1": [
+            [
+                16038,
+                16348
+            ]
+        ],
+        "HV2": [
+            [
+                79,
+                340
+            ]
+        ],
+        "HV3": [
+            [
+                438,
+                551
+            ]
+        ]
+    },
+    "statistic": {
+        "no_snps": 8,
+        "no_ins": 0,
+        "no_dels": 3,
+        "no_identicals": 677,
+        "no_unread": 62
+    }
+}
